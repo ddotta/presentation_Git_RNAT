@@ -1,7 +1,5 @@
-# Présentation du package targets
+# Présentation Git et Gitlab - RNAT
 
-Support de présentation du package R [targets](https://books.ropensci.org/targets/) au groupe des utilisateurs de R du @SSM-Agriculture
+Présentation à Git et à Gitlab à la réunion nationale des CIS 2024 du @SSM-Agriculture
 
-> Pour un affichage optimisé de la présentation il est conseillé d'utiliser un navigateur basé sur Chromium (par exemple les navigateurs Edge, Chrome, Brave...).
-
-Ce diaporama est accessible à cette adresse : https://ddotta.github.io/presentation_targets/#/title-slide
+Support visible sous : https://ddotta.github.io/presentation_Git_RNAT/
