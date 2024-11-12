@@ -1,0 +1,108 @@
+---
+title: "Presentation Git et Gitlab"
+subtitle: "Réunion nationale des CIS"
+date: "11/21/2024"
+date-format: "DD/MM/YYYY"
+author: "SSP/DEMESIS/BQIS/PAOS"
+description: |
+  Présentation de Git et Gitlab à la réunion nationale des CIS
+
+slide-tone: false # for blind readers
+chalkboard: false # press the B key to toggle chalkboard
+transition: slide
+fig-cap-location: bottom
+self-contained: true
+
+toc: true
+toc-title: Sommaire
+toc-depth: 1
+toc-float: true
+
+# multiplex: true
+execute:
+  echo: false
+  warning: false
+  cache: false
+editor:
+  render-on-save: true
+---
+
+## Le contrôle de version
+
+### Principe général :
+
+Le versioning consiste à conserver la version d'une entité logicielle quelconque 
+de façon à pouvoir la retrouver facilement même après l'apparition et la mise 
+en place de versions plus récentes.
+
+### Sans outil de contrôle de version
+
+::: columns
+::: {.column width="35%"}
+Exemple de ce que l'on peut trouver sur un server :  
+:::
+
+::: {.column width="65%"}
+![](img/cerise_sans_versionning.png){fig-align="center"}  
+:::
+
+::::
+
+
+## Pourquoi faire du contrôle de version ?
+
+**Le versioning permet de :**  
+
+- Obtenir de **la traçabilité** : on sait qui a changé quoi, quand, comment et pourquoi => cf. [exemple sur l'IPPAP](https://forge.agriculture.rie.gouv.fr/gitlab/ssp/bmis/ippap/-/issues/75){target="_blank"}  
+- **Travailler collectivement** sur les mêmes programmes **en même temps** => cf. [ici](https://ssm-agriculture.github.io/formation-git/#/git---un-mod%C3%A8le-distribu%C3%A9){target="_blank"}    
+- **L'expérimentation** lors des développements sans risques (à l'aide des branches) => cf. [ici](https://ssm-agriculture.github.io/formation-git/#/d%C3%A9finition-des-branches){target="_blank"}  
+- Faire de la **relecture** (revues de codes...) cf. [ici](https://ssm-agriculture.github.io/formation-git/#/les-relectures-ou-revues-de-code-avec-gitlab-12){target="_blank"}  
+- **Revenir en arrière** cf. [ici](https://ssm-agriculture.github.io/formation-git/#/revenir-en-arri%C3%A8re-avec-gitlab-13){target="_blank"}  
+
+[**Avec une forge comme gitlab, il permet en plus de :**]{.red}  
+
+- [D'archiver le code]{.red}  
+- [Partager le code au sein d'une communauté]{.red}  
+
+## Qu'est-ce qu'on versionne ?
+
+<br>
+
+<p style="text-align: center;">[On versionne les fichiers de type texte]{.content-box-green}</p>
+
+Par exemple :
+
+-   Les programmes R, Python, SAS...\
+-   La documentation au format texte, Markdown...\
+-   Les fichiers quarto, Rmarkdown...\
+-   Les fichiers de configuration de type yaml par exemple...
+
+[Tout le reste n'est pas (sauf exception) versionné !]{.red}
+
+## Points abordés dans la formation
+
+- Notions de bases sur le fonctionnement et l'intérêt du contrôle de version
+- Configuration de Git sous Cerise et de sa liaison avec la [forge interne Gitlab](https://forge.agriculture.rie.gouv.fr/gitlab/)
+- Utilisation de Git au quotidien avec l'essentiel des commandes
+- Présentation des fonctionnalités majeures de Gitlab (groupes, système de ticketing, tableau kanban...)
+- Comment restaurer un état précédent de son projet ?
+- Comment travailler à plusieurs sur un même projet (notions de branches, workflow, conflits...)
+
+[Quelques exercices pratiques accompagnent la formation pour que les participants puissent mettre en pratique les notions abordées.]{.souligneRouge}
+
+## Point sur les formations
+
+**Lien vers le diaporama complet :** [c'est ici](https://ssm-agriculture.github.io/formation-git/#/title-slide)  
+
+Au mois de novembre 2024, 4 formations Git/Gitlab dispensées.
+
+De futures formations à venir (durée = 1 journée) :  
+
+- À Auzeville en février 2025
+- À Paris en mars 2025
+- À Lyon en avril 2025
+
+## Démonstration
+
+
+Instant démo....
