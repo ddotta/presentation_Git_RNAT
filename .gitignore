@@ -16,4 +16,5 @@ template_files/
 *.sty
 *.docx
 *.odt
+DEMONSTRATION.txt
 !img/com_interne/PageStandard_Masaf.svg
