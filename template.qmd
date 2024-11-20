@@ -102,6 +102,18 @@ De futures formations à venir (durée = 1 journée) :
 - À Paris en mars 2025
 - À Lyon en avril 2025
 
+## Une illustration avant la démo
+
+::: columns
+::: {.column width="70%"}
+![](img/git-workflow-allisonhorst.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+*Source :* [Allison Horst](https://allisonhorst.com/git-github)
+:::
+:::
+
 ## Démonstration
 
 
